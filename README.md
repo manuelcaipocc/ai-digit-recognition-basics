@@ -1,6 +1,5 @@
 # AI Application – Final Assignment
 
-**Author:** Manuel Caipo  
 **Project:** Classification of Handwritten Digits with PyTorch
 
 ## Project Overview
@@ -8,7 +7,7 @@
 This project explores the use of Convolutional Neural Networks (CNN) for classifying handwritten digits. It includes data processing, augmentation with custom images, model training, and live predictions.
 
 The main notebook is:  
-**`scr/notebooks/KI_anwendung_ManuelCaipo.ipynb`**
+**`scr/KI_anwendung_ManuelCaipo.ipynb`**
 
 ---
 
@@ -16,29 +15,28 @@ The main notebook is:
 
 ```
 .
-├── .git/
-├── aufgabeki/                        # Supplementary materials
+├── .git/                               # Git tracking folder
 │
-├── scr/                              # Main code
-│   ├── notebooks/                    # Jupyter Notebooks
-│   │   ├── KI_anwendung_ManuelCaipo.ipynb
-│   │   └── MNIST_Manuel Caipo.ipynb
+├── aufgabeki/                          # Main project folder
+│   ├── aufgabekai/                     # Python package (recognized by Poetry)
+│   │   └── __main__.py                 # Entry point (optional but useful)
 │   │
-│   ├── data/                         # Datasets and custom images
-│   │   ├── C64_Ziffern_Daten.pkl
-│   │   ├── train.zip
-│   │   ├── test.zip
-│   │   └── images/
-│   └── utils.py                      # Utility functions
+│   └── __init__.py                     # Optional: makes folder a Python module
 │
-├── presentation/                     # Presentations
-│   ├── AI Application Presentation WS 2024_286577.pptx
-│   └── AI Application Presentation WS 2024_286577_ManuelCaipo.pdf
+├── scr/                                # Source code and notebooks
+│   ├── KI_anwendung_ManuelCaipo.ipynb
+│   └── MNIST_Manuel Caipo.ipynb
 │
-├── .gitignore
-├── poetry.lock
-├── pyproject.toml
-└── README.md
+├── utils.py                            # Utility functions (assumed at root)
+│
+├── AI Application Presentation WS 2024_286577.pptx
+├── AI Application Presentation WS 2024_286577_ManuelCaipo.pdf
+│
+├── .gitignore                          # Git ignore rules
+├── poetry.lock                         # Dependency lock file
+├── pyproject.toml                      # Poetry project definition
+└── README.md                           # Project description and usage
+
 ```
 
 ---
@@ -106,5 +104,6 @@ Ensure the following files are available:
 
 ## Author
 
-This project was carried out as part of the module **"AI Application"**.  
+This project was carried out as part of the module **"AI Application"**  
+at [Hochschule Furtwangen University (HFU)](https://www.hs-furtwangen.de/).  
 Author: **Manuel Caipo**
