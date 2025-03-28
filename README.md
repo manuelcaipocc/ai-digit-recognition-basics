@@ -15,8 +15,6 @@ The main notebook is:
 
 ```
 .
-├── .git/                               # Git tracking folder
-│
 ├── aufgabeki/                          # Main project folder
 │   ├── aufgabekai/                     # Python package (recognized by Poetry)
 │   │   └── __main__.py                 # Entry point (optional but useful)
