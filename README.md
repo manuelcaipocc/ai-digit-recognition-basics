@@ -106,4 +106,4 @@ Ensure the following files are available:
 
 This project was carried out as part of the module **"AI Application"**  
 at [Hochschule Furtwangen University (HFU)](https://www.hs-furtwangen.de/).  
-Author: **Manuel Caipo**
+Author: **Manuel Caipo Ccoa**
