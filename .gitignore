@@ -1,0 +1,36 @@
+# Pero no ignores lo importante
+!KI_anwendung_ManuelCaipo.ipynb
+!utils.py
+!C64_Ziffern_Daten.pkl
+!images/
+!KI anwendung Referat WS 2024_286577_ManuelCaipo.pdf
+!KI anwendung Referat WS 2024_286577_ManuelCaipo.pptx
+
+# Ignorar archivos de LaTeX
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
+
+
+# Ignorar notebooks temporales
+*MNIST_Manuel Caipo.ipynb
+*test.zip
+*train.zip
+*.rar
+*.zip
+*.log
+*.html
+
+# Ignorar carpetas
+runs/
+test/
+train MNIST/
+
+# Pesos/modelos guardados
+*.pth
+
+# Dataset MNIST descargado (usualmente está aquí)
+scr/train/MNIST/
+scr/test/
